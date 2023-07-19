@@ -1,0 +1,27 @@
+.header-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.btn-header {
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 0.2rem;
+  font-weight: bolder;
+  font-size: 1.05rem;
+  height: 4rem;
+  align-self: center;
+  margin-right: 5%;
+  padding: 0.5rem;
+}
+
+#header-logo {
+  height: 7rem;
+}

@@ -1,0 +1,33 @@
+.signup-container {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.body {
+  position: absolute;
+  top: 13rem;
+  left: 5rem;
+  text-align: center;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.form-signup {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.signup-pass,
+.signup-email {
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.btn-started {
+  width: 20%;
+}
